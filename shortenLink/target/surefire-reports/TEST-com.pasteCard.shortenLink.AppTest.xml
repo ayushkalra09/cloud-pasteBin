@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pasteCard.shortenLink.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/siddy/Desktop/pastecard/shortenLink/target/test-classes:/home/siddy/Desktop/pastecard/shortenLink/target/classes:/home/siddy/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/siddy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.12.595/aws-java-sdk-dynamodb-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.12.595/aws-java-sdk-s3-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.12.595/aws-java-sdk-kms-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.595/aws-java-sdk-core-1.12.595.jar:/home/siddy/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/siddy/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/siddy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/siddy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/siddy/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.7.1/jackson-databind-2.12.7.1.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.7/jackson-annotations-2.12.7.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.7/jackson-core-2.12.7.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.6/jackson-dataformat-cbor-2.12.6.jar:/home/siddy/.m2/repository/com/amazonaws/jmespath-java/1.12.595/jmespath-java-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.3/aws-lambda-java-core-1.2.3.jar:/home/siddy/.m2/repository/com/amazonaws/aws-lambda-java-events/3.11.3/aws-lambda-java-events-3.11.3.jar:/home/siddy/.m2/repository/joda-time/joda-time/2.10.8/joda-time-2.10.8.jar:/home/siddy/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/siddy/.m2/repository/org/apache/maven/plugins/maven-shade-plugin/3.5.1/maven-shade-plugin-3.5.1.jar:/home/siddy/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/home/siddy/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/siddy/.m2/repository/org/ow2/asm/asm/9.5/asm-9.5.jar:/home/siddy/.m2/repository/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar:/home/siddy/.m2/repository/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar:/home/siddy/.m2/repository/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar:/home/siddy/.m2/repository/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar:/home/siddy/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar:/home/siddy/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar:/home/siddy/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/home/siddy/.m2/repository/org/vafer/jdependency/2.9.0/jdependency-2.9.0.jar:/home/siddy/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/siddy/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.org/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/siddy/Desktop/pastecard/shortenLink/target/surefire/surefirebooter1270301652612725095.jar /home/siddy/Desktop/pastecard/shortenLink/target/surefire 2023-12-04T04-59-07_749-jvmRun1 surefire4273218550387073992tmp surefire_038947746786294451tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/siddy/Desktop/pastecard/shortenLink/target/test-classes:/home/siddy/Desktop/pastecard/shortenLink/target/classes:/home/siddy/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/siddy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.12.595/aws-java-sdk-dynamodb-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.12.595/aws-java-sdk-s3-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.12.595/aws-java-sdk-kms-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.595/aws-java-sdk-core-1.12.595.jar:/home/siddy/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/siddy/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/siddy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/siddy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/siddy/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.7.1/jackson-databind-2.12.7.1.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.7/jackson-annotations-2.12.7.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.7/jackson-core-2.12.7.jar:/home/siddy/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.6/jackson-dataformat-cbor-2.12.6.jar:/home/siddy/.m2/repository/com/amazonaws/jmespath-java/1.12.595/jmespath-java-1.12.595.jar:/home/siddy/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.3/aws-lambda-java-core-1.2.3.jar:/home/siddy/.m2/repository/com/amazonaws/aws-lambda-java-events/3.11.3/aws-lambda-java-events-3.11.3.jar:/home/siddy/.m2/repository/joda-time/joda-time/2.10.8/joda-time-2.10.8.jar:/home/siddy/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/siddy/.m2/repository/org/apache/maven/plugins/maven-shade-plugin/3.5.1/maven-shade-plugin-3.5.1.jar:/home/siddy/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/home/siddy/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/siddy/.m2/repository/org/ow2/asm/asm/9.5/asm-9.5.jar:/home/siddy/.m2/repository/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar:/home/siddy/.m2/repository/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar:/home/siddy/.m2/repository/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar:/home/siddy/.m2/repository/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar:/home/siddy/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar:/home/siddy/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar:/home/siddy/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/home/siddy/.m2/repository/org/vafer/jdependency/2.9.0/jdependency-2.9.0.jar:/home/siddy/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/siddy/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/siddy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/siddy/Desktop/pastecard/shortenLink"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/siddy/Desktop/pastecard/shortenLink/target/surefire/surefirebooter1270301652612725095.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35"/>
+    <property name="user.name" value="siddy"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.6.3-arch1-1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/siddy/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="/home/siddy/Desktop/pastecard/shortenLink"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="21+35"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.pasteCard.shortenLink.AppTest" time="0.006"/>
+</testsuite>

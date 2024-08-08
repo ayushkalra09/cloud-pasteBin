@@ -1,0 +1,5 @@
+com/pasteCard/shortenLink/ShortenLinkCreate.class
+com/pasteCard/shortenLink/models/ShortURLRequest.class
+com/pasteCard/shortenLink/models/ShortURLResponse$ShortURLResponseBuilder.class
+com/pasteCard/shortenLink/models/ShortURLResponse.class
+com/pasteCard/shortenLink/models/ShortURLRequest$ShortURLRequestBuilder.class
